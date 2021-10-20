@@ -188,9 +188,9 @@ echo "\n";
 echo "\033[0;37m[ + ]  \033[0;37mrecode : \033[0;37mAditya \033[0;37mAnd \033[0;37mShelly\n";
 echo "\033[0;37m[ + ]  \033[0;37mfb \033[0;37mme : \033[0;37mhttps://www.facebook.com/SHELLY.CAVALRY.41\n";
 for ($makep=38;$makep > 0;$makep--){
-echo $res."-";
+echo $white."-";
 usleep(2500);
-echo $red."-";
+echo $white."-";
 }
 echo "\n";
 $apilinks = "804705d500bb5eb123dea72f67275242f78ddf08";
@@ -236,9 +236,9 @@ echo "\n";
 echo "Masukan Token TDS:
   $tokenacc = trim(fgets(STDIN));
   for($i=0; $i<=15; $i++){
-echo "\033[1;31m─ ";
+echo $white."-";
 usleep(20000);
-echo "\033[1;37m─ ";
+echo $white."-";
 usleep(20000);
 }
 echo "\n"; 
