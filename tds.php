@@ -293,7 +293,7 @@ echo "\n";
 echo " [ * ] Nama Akun TDS.: ".$user."\n";
 echo " [ + ] Total Uang TDS: ".$xuhientai."\n";
 echo " [ + ] Menggunakan   : ".$demcki.Nick\n";
-echo " [ * ] Mulai Menggunakan Pada Waktu:".$time."\n";
+echo " [ * ] Mulai Menggunakan Pada Waktu:".$time."\n",
 for($i=0; $i<=15; $i++){
 echo $white."-";
 usleep(20000);
