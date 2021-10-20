@@ -233,7 +233,7 @@ usleep(2500);
 echo $white."-";
 echo "\n";
   $_SESSION['check'] = file_exists("log.txt");
-echo "\033[1;37m~\033[1;31m[\033[1;32m●\033[1;31m]\033[1;37m =>\033[1;32m Masukan Token TDS: $vang";
+echo "Masukan Token TDS:
   $tokenacc = trim(fgets(STDIN));
   for($i=0; $i<=15; $i++){
 echo "\033[1;31m─ ";
