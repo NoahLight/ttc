@@ -290,7 +290,7 @@ usleep(2500);
 echo $white."-";
 }
 echo "\n";
-echo " [ * ] Nama Akun TDS.: "$user."\n";
+echo " [ * ] Nama Akun TDS.: ".$user."\n";
 echo " [ + ] Total Uang TDS: "$xuhientai."\n";
 echo " [ + ] Menggunakan   : "$demcki.Nick\n";
 echo " [ * ] Mulai Menggunakan Pada Waktu: ".$time."\n";
