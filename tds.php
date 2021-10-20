@@ -180,9 +180,9 @@ date_default_timezone_set("Asia/Ho_Chi_Minh");
 @system('clear');
 echo $banner;
 for ($makep=38;$makep > 0;$makep--){
-echo \033[0;37m"-";
+echo $white."-";
 usleep(2500);
-echo \033[0;37m"-";
+echo $white."-";
 }
 echo "\n";
 echo "\033[0;37m[ + ]  \033[0;37mrecode : \033[0;37mAditya \033[0;37mAnd \033[0;37mShelly\n";
@@ -208,9 +208,9 @@ echo "\033[1;32mLink Key Gratis : \033[1;33m$link\n";
 system("xdg-open $link");
 echo "\n";
 for ($makep=38;$makep > 0;$makep--){
-echo $res."-";
+echo $white."-";
 usleep(2500);
-echo $red."-";
+echo $white."-";
 }
 echo "\n";
 echo "\033[1;33m[\033[1;35mWARNING\033[1;33m] \033[1;32mLing API FREE :\033[1;35m ";
@@ -230,7 +230,7 @@ echo $banner;
 for ($makep=38;$makep > 0;$makep--)
 echo $res."-";
 usleep(2500);
-echo $red."-";
+echo $white."-";
 echo "\n";
   $_SESSION['check'] = file_exists("log.txt");
 echo "\033[1;37m~\033[1;31m[\033[1;32m●\033[1;31m]\033[1;37m =>\033[1;32m Masukan Token TDS: $vang";
@@ -277,17 +277,17 @@ $time = date('H:i:s');
 @system('clear');
 echo $banner;
 for ($makep=38;$makep > 0;$makep--){
-echo "-";
+echo $white."-";
 usleep(2500);
-echo "-";
+echo $white."-";
 }
 echo "\n";
 echo " \033[0;37m[ + ]  recode : Aditya And Shelly\n";
 echo " [ + ]  fb me   :https://www.facebook.com/SHELLY.CAVALRY.41\n";
 for ($makep=38;$makep > 0;$makep--){
-echo \033[0;37m."-";
+echo $white."-";
 usleep(2500);
-echo \033[0;37m."-";
+echo $white."-";
 }
 echo "\n";
 echo " \033[0;37m[ * ] Nama Akun TDS: ".$vang.$user."\n";
@@ -295,9 +295,9 @@ echo " [ + ] Total Uang TDS: ".$vang.$xuhientai."\n";
 echo " [ + ] Menggunakan: ".$vang.$demcki."\033[1;32m Nick\n";
 echo " [ * ] Mulai Menggunakan Pada Waktu: ".$vang.$time."\n";
 for($i=0; $i<=15; $i++){
-echo "\033[1;31m─ ";
+echo $white."-";
 usleep(20000);
-echo "\033[1;37m─ ";
+echo $white."-";
 usleep(20000);
 }
 echo "\n";
