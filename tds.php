@@ -316,7 +316,7 @@ echo $white."[•]".$trang."=> ".$white."Setelah ".$white.$xxxxx.$white." Waktu 
 $delaybl = trim(fgets(STDIN));
 echo $white."[•]".$trang."=> ".$white."Total Misi: $white"; 
 $doinick = trim(fgets(STDIN));
-echo $white.[•]".$trang."=> ".$white."Total Misi Berhenti: $white"; 
+echo $white."[•]".$trang."=> ".$white."Total Misi Berhenti: $white"; 
 $dungtool = trim(fgets(STDIN));
 sleep(1);
 for($i=0; $i<=15; $i++){
