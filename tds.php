@@ -305,17 +305,18 @@ echo "[+] Pilih [3] Misi Love\n";
 echo "[+] Pilih [4] Misi Comment\n";
 echo "[+] Pilih [5] Misi Fanpage\n";
 echo "[+] Pilih [6] Misi Share\n";
+echo "[•]Pilih Misi :"; 
 $nhiemvu = trim(fgets(STDIN));
-echo $do."[".$luc."●".$do."] ".$trang."=> ".$luc."Masukan Waktu Misi : $vang"; 
+echo $do."[".$luc."●".$do."] ".$trang."=> ".$white."Masukan Waktu Misi : $white"; 
 $thoigianmin = trim(fgets(STDIN));
 $thoigianmax = $thoigianmin;
-echo $do."[".$luc."●".$do."] ".$trang."=> ".$luc."Waktu Block Misi: $vang"; 
+echo $do."[".$luc."●".$do."] ".$trang."=> ".$white."Waktu Block Misi: $white"; 
 $xxxxx = trim(fgets(STDIN));
-echo $do."[".$luc."●".$do."] ".$trang."=> ".$luc."Setelah ".$vang.$xxxxx.$luc." Waktu Berhenti: $vang"; 
+echo $do."[".$luc."●".$do."] ".$trang."=> ".$white."Setelah ".$white.$xxxxx.$white." Waktu Berhenti: $white"; 
 $delaybl = trim(fgets(STDIN));
-echo $do."[".$luc."●".$do."] ".$trang."=> ".$luc."Total Misi: $vang"; 
+echo $do."[".$luc."●".$do."] ".$trang."=> ".$white."Total Misi: $white"; 
 $doinick = trim(fgets(STDIN));
-echo $do."[".$luc."●".$do."] ".$trang."=> ".$luc."Total Misi Berhenti: $vang"; 
+echo $do."[".$luc."●".$do."] ".$trang."=> ".$white."Total Misi Berhenti: $white"; 
 $dungtool = trim(fgets(STDIN));
 sleep(1);
 for($i=0; $i<=15; $i++){
@@ -328,20 +329,20 @@ echo "\n";
 while(true){
   if(count($khocookie) == 0){
     
-    echo $white." 》 ".$green."Masukan Cookie Facebook.$yellow Berhenti Garis Bawah\n";
+    echo $white." 》 ".$white."Masukan Cookie Facebook.$white Berhenti [CTRL+Z]\n";
 for($a = 1; $a < 999999;$a++){
-echo $white." 》 ".$green."Masukan Cookie $a: $vang";
+echo $white." 》 ".$white."Masukan Cookie $a: $white";
 $nhapck = (string)trim(fgets(STDIN));
 if($nhapck == ''){break;}
 array_push($khocookie,$nhapck);
     }
 $demcki=count($khocookie);
-echo $white." 》 ".$green."Anda Masuk ".$vang.$demcki." ".$luc."Cookie Facebook\n";
+echo $white." 》 ".$white."Anda Masuk ".$white.$demcki." ".$white."Cookie Facebook\n";
   }
   $themtk = 0;
   for($xz=0;$xz<count($khocookie);$xz++){
  if ( $themck == 1){ break;}
- echo $white." 》 ".$green."Tools Sedang Berjalan";
+ echo $white." 》 ".$white."Tools Sedang Berjalan";
  $cookie = $khocookie[$xz];
 $access_token = laytoken($cookie);
 //$access_token = $cookie;
@@ -365,7 +366,7 @@ echo "\033[1;32mĐang Dùng FB: \033[1;33m".$tenfb."\033[1;32m ID:\033[1;33m ".$
 
 } else {
   echo "\r";
-    echo $white." => ".$red."Akun Belum Di Tambahkan Ke Konfigurasi $tenfb Vào Cấu Hình\n";
+    echo $white." => ".$white."Akun Belum Di Tambahkan Ke Konfigurasi $tenfb Vào Cấu Hình\n";
     exit;
 }
 $spam = 0;
@@ -381,7 +382,7 @@ while (true) {
                 break;
             }}
        if (count($listlike) == 0) {
-          echo $white." 》 ".$green."Hết Nhiệm Vụ Like\r";
+          echo $white." 》 ".$white."Akhir Misi Suka\r";
         }
     }
     //listfollow
@@ -393,7 +394,7 @@ while (true) {
             }
         }
       if (count($listsub) == 0) {
-          echo $white." 》 ".$green."Hết Nhiệm Vụ Follow\r";
+          echo $white." 》 ".$white."Akhir Misi Ikuti\r";
         }
     }
     //listreaction
@@ -404,7 +405,7 @@ while (true) {
                 break;
             }}
         if (count($listcx) == 0) {
-          echo $white." 》 ".$green."Hết Nhiệm Vụ Cảm Xúc\r";
+          echo $white." 》 ".$white."Misi Akhir Emosi/love\r";
         }
     }
     //listcmt
@@ -415,7 +416,7 @@ while (true) {
                 break;
             }}
         if (count($listcmt) == 0) {
-          echo $white." 》 ".$green."Hết Nhiệm Vụ Comment\r";
+          echo $white." 》 ".$white."Misi Akhir Comment\r";
         }
     }
     //listpage
@@ -426,7 +427,7 @@ while (true) {
                 break;
             }}
         if (count($listpage) == 0) {
-          echo $white." 》 ".$green."Hết Nhiệm Vụ Like Page\r";
+          echo $white." 》 ".$white."Misi Akhir Like Page\r";
         }
     }
     //share
@@ -437,7 +438,7 @@ while (true) {
                 break;
             }}
         if (count($listshare) == 0) {
-          echo $white." 》 ".$green."Hết Nhiệm Vụ Share\r";
+          echo $white." 》 ".$white."Misi Akhir Share\r";
         }
     }
     //listgroup 
@@ -448,7 +449,7 @@ while (true) {
                 break;
             }}
         if (count($listgr) == 0) {
-          echo $white." 》 ".$green."Hết Nhiệm Vụ Group\r";
+          echo $white." 》 ".$white."Misi Akhir Group\r";
         }
     }
     //listlikecmt
@@ -459,7 +460,7 @@ while (true) {
                 break;
             }}
         if (count($listlikecmt) == 0) {
-          echo $white." 》 ".$green."Hết Nhiệm Vụ React Comment\r";
+          echo $white." 》 ".$white."Misi Akhir React Comment\r";
         }
     }
     for ($lap = 0; $lap < 20; $lap++) {
@@ -487,9 +488,9 @@ while (true) {
                 if ($g -> {'error'} -> {'code'} == 405) {
                   echo "\r";
        echo "                                                      \r";
-                    echo $white." 》 ".$red."\033[1;91m"."Tài khoản bị checkpoint";
+                    echo $white." 》 ".$red."\033[1;91m"."Akun checkpoint";
                     echo "\n";
-                    array_splice($khocookie,$xz,1);
+                    array_splice($khocookie,$xz,1); 
                     $spam = 1;
                     break;
                 }
@@ -502,7 +503,7 @@ while (true) {
                     hoanthanh($dem, ' LIKE ', $idlike, $xujob, $xu);
                     if ( $dem >= $dungtool ){
 	$dungtool = 999999;
-  echo $white." ➻❥ ".$green."Chạy Tool Hoàn Thành Tổng Xu: ".$vang.$xu."\n";
+  echo $white." ➻❥ ".$white."Jalankan Alat TDS Koin: ".$white.$xu."\n";
     exit;
  }
                     if($dem % $doinick == 0){
@@ -526,7 +527,7 @@ while (true) {
                 if ($g -> {'error'} -> {'code'} == 190) {
                   echo "\r";
        echo "                                                      \r";
-                    echo $white." ➻❥ ".$red."Cookie Die\n";
+                    echo $white." ➻❥ ".$white."Cookie Die\n";
                     array_splice($khocookie,$xz,1);
                     $spam = 1; break;
                 }
@@ -542,7 +543,7 @@ while (true) {
                 if ($g -> {'error'} -> {'code'} == 405) {
                   echo "\r";
        echo "                                                      \r";
-                    echo $white." ➻❥ ".$red."\033[1;91m"."Tài khoản bị checkpoint";
+                    echo $white." ➻❥ ".$red."\033[1;91m"."Akun checkpoint";
                     echo "\n";
                     array_splice($khocookie,$xz,1);
                     $spam = 1;
@@ -557,7 +558,7 @@ while (true) {
                     if ( $dem >= $dungtool ){
     
 	$dungtool = 999999;
-  echo $white." ➻❥ ".$green."Chạy Tool Hoàn Thành Tổng Xu: ".$vang.$xu."\n";
+  echo $white." ➻❥ ".$white."Jalankan Alat TDS Koin: ".$white.$xu."\n";
   exit;
  }
                     if($dem % $doinick == 0){
@@ -582,7 +583,7 @@ while (true) {
                 if ($g -> {'error'} -> {'code'} == 190) {
                   echo "\r";
        echo "                                                      \r";
-                    echo $white." ➻❥ ".$red."Cookie Die\n";
+                    echo $white." ➻❥ ".$white."Cookie Die\n";
                     array_splice($khocookie,$xz,1);
                     $spam = 1; break;
                 }
@@ -623,7 +624,7 @@ while (true) {
                     hoanthanh($dem, $type, $idcx, $xujob, $xu);
                     if ( $dem >= $dungtool ){
 	$dungtool = 999999;
-    echo $white." ➻❥ ".$green."Chạy Tool Hoàn Thành Tổng Xu: ".$vang.$xu."\n";
+    echo $white." ➻❥ ".$white."Jalankan Alat TDS Koin: ".$white.$xu."\n";
     exit;
  }
                     if($dem % $doinick == 0){
@@ -645,7 +646,7 @@ while (true) {
                     if ($g -> {'error'} -> {'code'} == 190) {
                   echo "\r";
        echo "                                                      \r";
-                    echo $white." ➻❥ ".$red."Cookie Die\n";
+                    echo $white." ➻❥ ".$white."Cookie Die\n";
                     array_splice($khocookie,$xz,1);
                     $spam = 1; break;
                 }
@@ -1209,7 +1210,7 @@ function delay2($time){
   for($j = $time;$j> 0;$j--){
     echo "\r";
     echo "                                                      \r";
-    echo $green."Waktu Berhenti Misi$yellow $j Giây";
+    echo $white."Waktu Berhenti Misi$white $j Giây";
              sleep(1);
       
            }
