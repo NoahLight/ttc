@@ -264,7 +264,7 @@ $khocookie = [];
 echo $do."[".$luc."●".$do."] ".$trang."=> ".$whiteb."Masukan Jumlah Cookie: \033[1;33m";
 $luong=trim(fgets(STDIN));
 for($a = 1; $a <= $luong;$a++){
-echo $do."[".$luc."●".$do."] ".$trang."=> "..$whiteb."Masukan Cookie $a: $whiteb";
+echo $do."[".$luc."●".$do."] ".$trang."=> "..$whiteb"Masukan Cookie $a: $whiteb";
 $nhapck = (string)trim(fgets(STDIN));
 array_push($khocookie,$nhapck);
   }
