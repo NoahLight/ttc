@@ -233,7 +233,7 @@ usleep(2500);
 echo $white."-";
 echo "\n";
   $_SESSION['check'] = file_exists("log.txt");
-echo "Masukan Token TDS:
+echo "Masukan Token TDS:$white"; 
   $tokenacc = trim(fgets(STDIN));
   for($i=0; $i<=15; $i++){
 echo $white."-";
