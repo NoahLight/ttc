@@ -299,12 +299,12 @@ echo $white."-";
 usleep(20000);
 }
 echo "\n";
-echo "[+] Pilih [1] Misi Like"\n";
-echo "[*] Pilih [2] Misi Follow"\n";
-echo "[+] Pilih [3] Misi Love"\n";
-echo "[*] Pilih [4] Misi Comment"\n";
-echo "[+] Pilih [5] Misi Fanpage"\n";
-echo "[*] Pilih [6] Misi Share"\n";
+echo "[+] Pilih [1] Misi Like\n";
+echo "[+] Pilih [2] Misi Follow\n";
+echo "[+] Pilih [3] Misi Love\n";
+echo "[+] Pilih [4] Misi Comment\n";
+echo "[+] Pilih [5] Misi Fanpage\n";
+echo "[+] Pilih [6] Misi Share\n";
 $nhiemvu = trim(fgets(STDIN));
 echo $do."[".$luc."●".$do."] ".$trang."=> ".$luc."Masukan Waktu Misi : $vang"; 
 $thoigianmin = trim(fgets(STDIN));
