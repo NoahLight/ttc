@@ -307,16 +307,16 @@ echo "[+] Pilih [5] Misi Fanpage\n";
 echo "[+] Pilih [6] Misi Share\n";
 echo "[•]Pilih Misi :"; 
 $nhiemvu = trim(fgets(STDIN));
-echo $do."[".$luc."●".$do."] ".$trang."=> ".$white."Masukan Waktu Misi : $white"; 
+echo "[•]".$trang."=> ".$white."Masukan Waktu Misi : $white"; 
 $thoigianmin = trim(fgets(STDIN));
 $thoigianmax = $thoigianmin;
-echo $do."[".$luc."●".$do."] ".$trang."=> ".$white."Waktu Block Misi: $white"; 
+echo $white."[•]".$trang."=> ".$white."Waktu Block Misi: $white"; 
 $xxxxx = trim(fgets(STDIN));
-echo $do."[".$luc."●".$do."] ".$trang."=> ".$white."Setelah ".$white.$xxxxx.$white." Waktu Berhenti: $white"; 
+echo $white."[•]".$trang."=> ".$white."Setelah ".$white.$xxxxx.$white." Waktu Berhenti: $white"; 
 $delaybl = trim(fgets(STDIN));
-echo $do."[".$luc."●".$do."] ".$trang."=> ".$white."Total Misi: $white"; 
+echo $white."[•]".$trang."=> ".$white."Total Misi: $white"; 
 $doinick = trim(fgets(STDIN));
-echo $do."[".$luc."●".$do."] ".$trang."=> ".$white."Total Misi Berhenti: $white"; 
+echo $white.[•]".$trang."=> ".$white."Total Misi Berhenti: $white"; 
 $dungtool = trim(fgets(STDIN));
 sleep(1);
 for($i=0; $i<=15; $i++){
@@ -366,7 +366,7 @@ echo "\033[1;32mĐang Dùng FB: \033[1;33m".$tenfb."\033[1;32m ID:\033[1;33m ".$
 
 } else {
   echo "\r";
-    echo $white." => ".$white."Akun Belum Di Tambahkan Ke Konfigurasi $tenfb Vào Cấu Hình\n";
+    echo $white." => ".$white."Akun Belum Di Tambahkan Ke Konfigurasi $tenfb \n";
     exit;
 }
 $spam = 0;
