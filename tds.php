@@ -290,10 +290,10 @@ usleep(2500);
 echo $white."-";
 }
 echo "\n";
-echo " \033[0;37m[ * ] Nama Akun TDS: ".$vang.$user."\n";
-echo " [ + ] Total Uang TDS: ".$vang.$xuhientai."\n";
-echo " [ + ] Menggunakan: ".$vang.$demcki."\033[1;32m Nick\n";
-echo " [ * ] Mulai Menggunakan Pada Waktu: ".$vang.$time."\n";
+echo " [ * ] Nama Akun TDS.: "$user."\n";
+echo " [ + ] Total Uang TDS: "$xuhientai."\n";
+echo " [ + ] Menggunakan   : "$demcki.Nick\n";
+echo " [ * ] Mulai Menggunakan Pada Waktu: ".$time."\n";
 for($i=0; $i<=15; $i++){
 echo $white."-";
 usleep(20000);
