@@ -180,13 +180,13 @@ date_default_timezone_set("Asia/Ho_Chi_Minh");
 @system('clear');
 echo $banner;
 for ($makep=38;$makep > 0;$makep--){
-echo "-";
+echo \033[0;37m"-";
 usleep(2500);
-echo "-";
+echo \033[0;37m"-";
 }
 echo "\n";
-echo " [ + ]  recode : Aditya And Shelly\n";
-echo " [ + ]  fb me   :https://www.facebook.com/SHELLY.CAVALRY.41\n";
+echo "\033[0;37m[ + ]  \033[0;37mrecode : \033[0;37mAditya \033[0;37mAnd \033[0;37mShelly\n";
+echo "\033[0;37m[ + ]  \033[0;37mfb \033[0;37mme : \033[0;37mhttps://www.facebook.com/SHELLY.CAVALRY.41\n";
 for ($makep=38;$makep > 0;$makep--){
 echo $res."-";
 usleep(2500);
@@ -282,15 +282,15 @@ usleep(2500);
 echo "-";
 }
 echo "\n";
-echo " [ + ]  recode : Aditya And Shelly\n";
+echo " \033[0;37m[ + ]  recode : Aditya And Shelly\n";
 echo " [ + ]  fb me   :https://www.facebook.com/SHELLY.CAVALRY.41\n";
 for ($makep=38;$makep > 0;$makep--){
-echo $res."-";
+echo \033[0;37m."-";
 usleep(2500);
-echo $red."-";
+echo \033[0;37m."-";
 }
 echo "\n";
-echo " [ * ] Nama Akun TDS: ".$vang.$user."\n";
+echo " \033[0;37m[ * ] Nama Akun TDS: ".$vang.$user."\n";
 echo " [ + ] Total Uang TDS: ".$vang.$xuhientai."\n";
 echo " [ + ] Menggunakan: ".$vang.$demcki."\033[1;32m Nick\n";
 echo " [ * ] Mulai Menggunakan Pada Waktu: ".$vang.$time."\n";
